@@ -4,8 +4,6 @@
     text-decoration: none;
     color: rgb(32, 32, 32);
     font-family: 'Montserrat', sans-serif;
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
 }
 .main {
     background-image: url('../assets/background.jpg')  ;
@@ -14,10 +12,13 @@
     background-size: cover;
     height: 100vh;
     max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .options {
     margin-right: 40px;
@@ -30,13 +31,15 @@
 .nav-content a {
     padding: 0;
 }
-.shop {
+.shop-btn {
     background-color: #e67e34;
-    width: 40px;
-    height: 25px;
-    line-height: 25px;
+    padding: 23px 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 80px;
+}
+.shop-btn .shop {
     color: white;
-    font-weight: 600;
 }
 .nav-content {
     display: flex;

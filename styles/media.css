@@ -1,0 +1,49 @@
+@media screen and (max-width: 760px){
+    .main {
+        background-position-x: center;
+    }
+    .shop-btn {
+        margin-left: 10px;
+    }
+    .icons {
+        padding: 8px;
+        margin-left: 0;
+    }
+    .nav-content {
+        margin: 0;
+    }
+    .options a {
+        font-size: 15px;
+        margin: 0;
+    }
+    .nav-left {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .container {
+        margin-top: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .content h2 {
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+    .content, .card {
+        margin: 40px 30px;
+    }
+    .card {
+        width: 95%;
+        display: flex;
+        align-items: end;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .content {
+        padding: 0 15px;
+    }
+
+}
