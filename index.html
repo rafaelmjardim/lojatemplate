@@ -25,35 +25,75 @@ ADD TO CART -->
     <title>Shop template</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <a class="shop" href="#">SHOP</a>
-        <div class="nav-content">
-            <a href="#">My Account</a>
-            <a href="#">Search</a>
-                <div class="icons">
-                    <i class="fa-solid fa-bag-shopping"></i>
+    <main class="main">
+        <nav class="nav-bar">
+            <a class="shop" href="#">SHOP</a>
+            <div class="nav-content">
+                <div class="options">
+                    <a href="#">MY ACCOUNT</a>
+                    <a href="#">SEARCH</a>
                 </div>
-                <div class="icons">
-                    <i class="fa-solid fa-align-right"></i>
+                    <div class="icons">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-align-right"></i>
+                    </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="nav-left">
+                <div class="menu">
+                    <a href="#">WOMEN</a>
+                    <a href="#">MEN</a>
+                    <a href="#">SHOES</a>
+                    <a href="#"><span>BRAND</span></a>
                 </div>
+                <div class="social-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </div>
+            </div>
+            <div class="content">
+                <h2>BRAND</h2>
+                <h2>SWEATSHIRT</h2>
+                <p>$1000</p>
+                <div class="prev">
+                    <div class="prev-content">
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                        <p>PREV</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="next">
+                    <div class="next-content">
+                        <p>NEXT</p>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+                <div class="size-item">
+                    <div class="size">
+                        S
+                    </div>
+                    <div class="size">
+                        <span>M</span>
+                    </div>
+                    <div class="size">
+                        L
+                    </div>
+                </div>
+                <div class="input-value">
+                    <i class="fa-solid fa-minus"></i>
+                    <input class="input-number" type="number" name="addCard" id="addCard" value="1">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                
+                <button class="btn">ADD TO CART</button>
+            </div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="menu">
-            <a href="#">WOMEN</a>
-            <a href="#">MEN</a>
-            <a href="#">SHOES</a>
-            <a href="#"><span>BRAND</span></a>
-        </div>
-        <div class="content">
-            <h2>BRAND</h2>
-            <h2>SWEATSHIRT</h2>
-            <p>$1000</p>
-            <div class="prev"><i class="fa-solid fa-arrow-left-long"></i> PREV</div>
-        </div>
-        <div class="card">
-            <button class="btn">ADD TO CARD</button>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
